@@ -14,9 +14,6 @@ Nesso projeto pude manipular pequenas particulas cujo o objetivo fosse represent
 Nesse projeto pude deixar em foco os personagens.
 enfoco maior é trabalhar com telas grandes e não com versões mobile.
 
-
-
-
 </p>
 
 <h3>Tecnologias utilizadas</h3>
