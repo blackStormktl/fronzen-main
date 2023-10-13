@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#41A3E7,rgb(219, 219, 228));
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+section{
+    font-family: 'Iceberg', cursive;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    padding: 10px;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #41A3E7;
+    
+}
+section::before{
+    content: 'Fronzen';
+    font-size: 150px;
+    position: absolute;
+    color: rgba(255,255,255,0.7);
+    text-shadow: 5px 5px 20px rgba(52, 123, 173, 0.8);
+    top: 20%;
+    left: 20px;
+}
+
+section nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+nav{
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    justify-content: space-between  ;
+}
+nav .logo{
+    width: 8em;
+}
+nav .menu{
+    display: flex;
+}
+
+
+nav .menu li{
+    font-size: 1em;
+    margin: 5px;
+}
+
+
+nav .menu li a{
+    color: #41A3E7;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+main img{
+    position: absolute;
+    left: 40%;
+    bottom: 2px;
+    width: 430px;
+}
+
+main .box{
+    position: absolute;
+    color:#41A3E7;
+    bottom: 90px;
+    left: 20px;
+    padding: 5px;
+    width: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.btn{
+    color:#fff;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.8em;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.blue{
+    background: radial-gradient(#3d89c0 ,#41A3E7);
+}
+
+
+.wite{
+    width: 150px;
+    color:#969696;
+    background: rgba(255,255,255,0.5);
+}
+
+.dock{
+    position: absolute;
+    right: 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    position: absolute;
+    right: 20px;
+    font-size: 1em;
+    transform: rotate(270deg);
+    
+}
+.dock li img{
+    padding: 5px;
+    filter: invert(1);
+    width: 30px;
+    cursor: pointer;
+}
+
+.dock li img:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}

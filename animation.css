@@ -1,0 +1,21 @@
+.snow li{
+    animation: down 5s infinite;
+    animation-duration: 5s;
+}
+.snow li{
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 5 rgba(255,255,255,0.5)s;
+    background-color: rgba(255,255,255,0.8);
+    list-style: none;
+    width: 10px;
+    height: 10px;
+}
+@keyframes down {
+    to{
+        transform: translateY(700px);
+    }
+}
